@@ -2,6 +2,7 @@ package org.example;
 
 public class FizzBuzz {
 
+
     public String fizzBuzz(int number) {
         if (number % 15 == 0) {
             return "FizzBuzz";
