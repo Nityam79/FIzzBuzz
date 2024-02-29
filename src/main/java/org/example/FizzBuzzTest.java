@@ -12,5 +12,11 @@ public class FizzBuzzTest {
         String result = fizzBuzz.fizzBuzz(3);
         assertEquals("Fizz", result);
     }
+    @Test
+    public void testIsBuzz_ShouldReturnBuzzForMultipleOfFive() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.fizzBuzz(5);
+        assertEquals("Buzz", result);
+    }
 }
 
