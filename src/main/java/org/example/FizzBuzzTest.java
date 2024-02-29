@@ -25,5 +25,11 @@ public class FizzBuzzTest {
         String result = fizzBuzz.fizzBuzz(15);
         assertEquals("FizzBuzz", result);
     }
+    @Test
+    public void testIsNumber_ShouldReturnNumberAsStringForOtherCases() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        String result = fizzBuzz.fizzBuzz(4);
+        assertEquals("4", result);
+    }
 }
 
